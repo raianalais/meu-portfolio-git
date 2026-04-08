@@ -2,7 +2,7 @@
 using namespace std;
 
 string saudacao(string nome) {
-    return "olá," + nome + "! Bem vindo ao sistema";
+    return "Versao B da saudacao";
 }
 
 
