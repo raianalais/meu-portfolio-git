@@ -1,14 +1,18 @@
 #include <iostream>
 using namespace std;
 
-string saudacao() {
-    return "ola usuario! Bem vindo ao sistema";
+string saudacao(string nome) {
+    return "olá," + nome + "! Bem vindo ao sistema";
 }
 
 
 int main() {
-    cout << "hello word" << endl;
-    cout << saudacao() << endl;
+    string nome;
+
+    cout << "digite seu nome";
+    cin >> nome;
+
+    cout << saudacao(nome) << endl;
 
     return 0;
 }
